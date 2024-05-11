@@ -1,0 +1,5 @@
+var maxTextLength = 240
+var textMessage = prompt("What's on your mind?");
+var charactersLeft = maxTextLength - textMessage.length;
+
+alert("You have " + charactersLeft + " characters left to type");
